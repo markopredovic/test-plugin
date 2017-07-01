@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/require.js"></script>
@@ -38,8 +39,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li class="dropdown">
+        <li><a href="\">Home <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">3rd-party plugins <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="swiper.html">Swiper</a></li>
@@ -67,16 +68,38 @@
 
     <main>
       <div class="container">
+        <h3>Swiper</h3>
         <p class="well">
-          All tested jQuery 3rd-party and bootstrap plugins, ready for use in frontend project.
+          Modern mobile touch slider
         </p>
-        <p class="well">Todo list with pending plugins, in queue for test.</p>
+      <div class="row l-swiper-vertical">
+        <div class="col-xs-12">
+          <h3>Vertical Slides + Responsive</h3>
+          <!-- Swiper -->
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">Slide 4</div>
+                  <div class="swiper-slide">Slide 5</div>
+                  <div class="swiper-slide">Slide 6</div>
+                  <div class="swiper-slide">Slide 7</div>
+                  <div class="swiper-slide">Slide 8</div>
+                  <div class="swiper-slide">Slide 9</div>
+                  <div class="swiper-slide">Slide 10</div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
       </div>
     </main>
 
     <script>
       require(['js/config'], function() {
-        require(['app/home']);
+        require(['app/swiper']);
       })
     </script>
 

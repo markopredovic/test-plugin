@@ -16,7 +16,7 @@ gulp.task('serve', function() {
   //var files = ['./css/styles.css'];
 
   browserSync.init({
-    proxy: 'html-starter.test'
+    proxy: 'testing.local'
   })
 
   gulp.watch('./sass/**/*.scss', ['css'], function() {
