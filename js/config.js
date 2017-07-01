@@ -6,6 +6,6 @@ requirejs.config({
     'app': '../app'
   },
   shim: {
-    'bootstrap': 'jquery'
+    'bootstrap': ['jquery']
   }
 })
