@@ -67,10 +67,27 @@
 
     <main>
       <div class="container">
-        <p class="well">
-          All tested jQuery 3rd-party and bootstrap plugins, ready for use in frontend project.
-        </p>
-        <p class="well">Todo list with pending plugins, in queue for test.</p>
+        <!-- home carousel -->
+        <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#homeCarousel" data-slide-to="1"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <h3>All tested jQuery 3rd-party and bootstrap plugins, ready for use in frontend project.</h3>
+            </div>
+            <div class="item">
+                <h3>Plugins TODO list</h3>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- end home carousel -->
       </div>
     </main>
 

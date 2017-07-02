@@ -1,5 +1,21 @@
 /* var */
 /* custom layout: */
+/* homepage:
+-----------------------*/
+#homeCarousel .item {
+  padding: 130px 200px 0;
+  height: 350px; }
+  #homeCarousel .item:first-child {
+    background-color: #EA4B27; }
+  #homeCarousel .item:nth-child(2) {
+    background-color: #586970; }
+  #homeCarousel .item h3 {
+    margin: 0;
+    font-size: 26px;
+    line-height: 1.4;
+    color: #fff;
+    text-align: center; }
+
 /* custom module: */
 .l-swiper-vertical .swiper-container {
   width: 100%;
