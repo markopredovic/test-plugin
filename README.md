@@ -1,8 +1,4 @@
-# html5-bootstrap-sass-starter
-Html5 starter template, with sass and bootstrap setup
+# Manage your javascript with requireJS
+Example how to structure and modularize your javascript code
 
-### Setup
-
-* download and unzip folder
-* edit Gulpfile.js and
-* run npm install
+Download project locally and examine js structure
