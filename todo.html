@@ -61,25 +61,12 @@
 
     <main>
       <div class="container">
-        <!-- home carousel -->
-        <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#homeCarousel" data-slide-to="1"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <h3>All tested jQuery 3rd-party and bootstrap plugins, ready for use in frontend project.</h3>
-            </div>
-            <div class="item">
-                <h3>Plugins TODO list</h3>
-            </div>
-          </div>
-
-        </div>
+        <h3>Plugins todo list</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/alvarotrigo/fullPage.js">fullPage.js</a>
+          </li>
+        </ul>
 
         <!-- end home carousel -->
       </div>
@@ -87,7 +74,7 @@
 
     <script>
       require(['js/config'], function() {
-        require(['app/home']);
+        require(['app/todo']);
       })
     </script>
 
